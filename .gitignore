@@ -1,0 +1,10 @@
+pkg/
+bin/
+#src/github.com
+#src/code.google.com
+pki/
+.hg*/
+.hgtags
+.hgignore
+.bzr/
+.git/
