@@ -6,7 +6,7 @@ A MITM proxy for tracking cloud API calls.
 
 It can also "hijack" your SSL connections and peek in to them. It does this like so:
 
-- SSL request comes in. By default proxies will simply act as a dumb conduit as the http client application will use `DIRECT`.
+- SSL request comes in. By default proxies will simply act as a dumb conduit as the http client application will use `CONNECT`.
 - `cloudproxy` will make the request itself and reencrypt the reponse with its own CA cert.
 - It will respond to the requestor with the data reencrypted with its own cert
 
